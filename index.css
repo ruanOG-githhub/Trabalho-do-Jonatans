@@ -1,14 +1,15 @@
 /* Reset básico */
+    link html
 * {
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    padding: 20px;  
     box-sizing: border-box;
 }
 
 body {
     font-family: "Segoe UI", sans-serif;
-    background: #f4f4f4;
-    color: #333;
+    background: #01a301;
+    color: #04b61c;
     line-height: 1.6;
     padding: 20px;
 }
