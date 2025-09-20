@@ -48,14 +48,23 @@ h2 {
     margin-bottom: 10px;
 }
 
-ul {
-    margin-left: 20px;
-    list-style-type: disc;
-}
-
 footer {
     text-align: center;
     margin-top: 40px;
     font-size: 0.9em;
     color: #888;
+}
+
+ img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #03c503;
+
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+
 }
