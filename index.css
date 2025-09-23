@@ -1,11 +1,8 @@
-/* Reset básico */
-    link html
 * {
-    margin: 20px;
-    padding: 20px;  
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-
 body {
     font-family: "Segoe UI", sans-serif;
     background: #01a301;
@@ -13,7 +10,6 @@ body {
     line-height: 1.6;
     padding: 20px;
 }
-
 .container {
     max-width: 960px;
     margin: auto;
@@ -22,27 +18,22 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
-
 .cabecalho {
     text-align: center;
     margin-bottom: 30px;
 }
-
 .cabecalho h1 {
     color: #2c3e50;
     font-size: 2.5em;
     margin-bottom: 10px;
 }
-
 .subtitulo {
     font-size: 1.2em;
     color: #7f8c8d;
 }
-
 section {
     margin-bottom: 30px;
 }
-
 h2 {
     color: #2980b9;
     margin-bottom: 10px;
@@ -54,17 +45,39 @@ footer {
     font-size: 0.9em;
     color: #888;
 }
-
- img {
+.cabecalho img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 5px solid #03c503;
-
+    object-fit: cover;
 }
 ul {
     display: flex;
     list-style-type: none;
     font-size: 20px;
-
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.foto {
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    border: none; 
+    border-radius: 0;
+}
+.foto:hover img {
+    transform: scale(1.2); 
 }
