@@ -1,3 +1,4 @@
+
 * {
     margin: 0px;
     padding: 0px;
@@ -5,7 +6,7 @@
 }
 body {
     font-family: "Segoe UI", sans-serif;
-    background: #01a301;
+    background: #009200;
     color: #04b61c;
     line-height: 1.6;
     padding: 20px;
@@ -49,7 +50,7 @@ footer {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #03c503;
+    border: 5px solid #009200;
     object-fit: cover;
 }
 ul {
